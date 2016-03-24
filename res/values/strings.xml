@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Trivia</string>
+    
+    <string name="errorname">Please enter your name </string>
+    <string name="errorname2">There are currently no scores. </string>
+    <string name="CORRECT">CORRECT </string>
+    <string name="WRONG">WRONG </string>
+	<string name="error">Your time has ended </string>
+</resources>

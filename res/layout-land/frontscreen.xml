@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/FRONTPAGE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittextstyle2"
+        android:gravity="center"
+        android:text="TRUE OR FALSE TRIVIA"
+        android:textColor="#f0ffff"
+        android:textSize="40sp" />
+
+    <requestFocus android:layout_width="wrap_content" />
+
+    <Button
+        android:id="@+id/startbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/edittextstyle"
+        android:layout_marginTop="10dp"
+        android:padding="10sp"	
+        android:gravity="center"
+        android:text="START NOW"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/descriptionbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="10sp"
+        android:background="@drawable/edittextstyle"
+        android:text="Quiz Description"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/disclaimerbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextstyle"
+        android:padding="10sp"
+        android:text="Disclaimer"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/EmptyBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/edittextstyle1"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#aac"
+        android:textSize="20sp" />
+
+</LinearLayout>
